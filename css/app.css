@@ -1,0 +1,68 @@
+
+
+body{
+	 font-family: 'Gamja Flower', cursive;
+}
+.sideBar{
+	position: absolute;
+	/*text-align: center;*/
+	z-index: 10;
+	width: 15%;
+	height: 98%;
+	display: flex;
+	flex-direction: column;
+
+}
+.background{
+	position: absolute;
+	background-attachment: scroll;
+	float: left;
+	width: 15%;
+	height: 98%;
+	margin-top: 0;
+	background-color: #025ff4;
+	z-index: -1;
+	opacity: .5;
+}
+.cat-pic{
+	height: 75px;
+	width: 75px;
+}
+.name{
+	margin: 0
+}
+
+
+.name{
+	margin: 0;
+}
+.padding{
+	padding: 15px;
+}
+
+#cat-clicker{
+	text-align: center;
+	user-select: none;
+	font: 3em strong;
+}
+#button{
+	user-select: none;
+}
+
+.mainContent{
+	margin: auto;
+	text-align: center;
+	float: right;
+	width: 75%;
+	height: 100%;
+	background-color: #05262d;
+}
+.#style{
+	height: 300px;
+	width: 300px;
+	text-align: center;
+	margin: auto;
+	padding: auto;
+	transition-timing-function: ease-in;
+}
+
